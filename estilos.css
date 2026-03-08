@@ -1,8 +1,53 @@
-nav ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: 0;
-    gap: 25px;
-    background: black;
+body{
+scroll-behavior:smooth;
+padding-top:70px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* secciones */
+section{
+padding:80px 0;
+}
+
+.biografia p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* timeline */
+
+.timeline{
+border-left:3px solid #0d6efd;
+padding-left:20px;
+}
+
+.timeline-item{
+margin-bottom:20px;
+}
+
+/* galeria */
+
+#galeria img{
+width:100%;
+height: 100%;
+}
+
+/* efecto imagen */
+
+.sombra{
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.sombra:hover{
+transform:scale(1.05);
+}
+
+/* tarjetas */
+
+.card{
+border:none;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
 }
